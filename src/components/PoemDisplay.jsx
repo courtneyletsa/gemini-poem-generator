@@ -13,7 +13,7 @@ const PoemDisplay = ({ poem }) => {
   return (
     <div className="poem-display">
       <h2>Generated Poem:</h2>
-      <p>{poem} hjgjgjhgjhgjhgjhg</p>
+      <p>{poem} </p>
       {/* <button onClick={togglePlay}>
         {isPlaying ? 'Stop Playing' : 'Play Audio'}
         <TiPlayer size={20} color="#000" />
