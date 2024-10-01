@@ -15,7 +15,7 @@ function App() {
   const generatePoem = async () =>{
       try {
           const apiKey =  import.meta.env.VITE_GEMINI_API_KEY;
-          console.log('the apikey is:', apiKey);
+          // console.log('the apikey is:', apiKey);
 
        
           const genAI = new GoogleGenerativeAI(apiKey);
